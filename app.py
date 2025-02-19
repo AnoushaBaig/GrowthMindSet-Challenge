@@ -7,7 +7,8 @@ from io import BytesIO #for file upload
 st.set_page_config(page_title="Q3 Assignment 01", layout="wide")
 
 
-st.title("Data Sweeper")
+st.title("Data Sweeper By Anousha Baig")
+st.write("Welcome to Data Sweeper App 🧹")
 st.write("Transform your files between CSV and Excel formats with built-in data cleaning and visualization!")
 
 
@@ -83,4 +84,4 @@ if uploaded_files:
                 mime=mime_type
             )    
 
-st.success("All files processed")
+st.success("All files processed 🎊🎉")
